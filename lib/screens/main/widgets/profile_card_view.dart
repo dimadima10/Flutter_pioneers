@@ -1,4 +1,4 @@
-import 'package:bloc_example/details/details_screen.dart';
+import 'package:bloc_example/screens/details/details_screen.dart';
 import 'package:bloc_example/models/chat.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +20,7 @@ class ProfileCardView extends StatelessWidget {
                     return DetailsScreen(details: details);
                   },
                 ),
-              ),
+              ).then((s) {}),
             },
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,

@@ -1,3 +1,6 @@
+
+import 'dart:typed_data';
+
 class Chat {
   final String name;
   final String image;
@@ -16,6 +19,7 @@ class ChatConv {
   final String date;
   final String text;
   final bool isSender;
+  final Uint8List ?image;
 
-  ChatConv({required this.date, required this.text, required this.isSender});
+  ChatConv({required this.date, required this.text, required this.isSender,this.image});
 }

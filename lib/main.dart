@@ -1,4 +1,4 @@
-import 'package:bloc_example/main_screen/main_screen.dart';
+import 'package:bloc_example/screens/main/main_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

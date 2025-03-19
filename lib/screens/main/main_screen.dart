@@ -1,5 +1,5 @@
-import 'package:bloc_example/main_screen/main_bloc.dart';
-import 'package:bloc_example/main_screen/widgets/profile_card_view.dart';
+import 'package:bloc_example/screens/main/main_bloc.dart';
+import 'package:bloc_example/screens/main/widgets/profile_card_view.dart';
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatelessWidget {
